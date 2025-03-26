@@ -234,3 +234,8 @@
 function scrollToGallery() {
     document.getElementById("fh5co-gallery").scrollIntoView({ behavior: "smooth" });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+	let audio = document.getElementById("background-music");
+	audio.play().catch(error => console.log("Trình duyệt chặn autoplay:", error));
+});
