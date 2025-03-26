@@ -232,10 +232,10 @@
 }());
 /////
 function scrollToGallery() {
-    document.getElementById("fh5co-gallery").scrollIntoView({ behavior: "smooth" });
-}
+	// Cuộn đến phần tử có ID 'fh5co-gallery'
+	document.getElementById("fh5co-gallery").scrollIntoView({ behavior: "smooth" });
 
-document.addEventListener("DOMContentLoaded", function() {
-	let audio = document.getElementById("background-music");
-	audio.play().catch(error => console.log("Trình duyệt chặn autoplay:", error));
-});
+	// Phát nhạc
+	var audio = document.getElementById("birthdayAudio");
+	audio.play().catch(error => console.log("Tự động phát bị chặn:", error));
+}
