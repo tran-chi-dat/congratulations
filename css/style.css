@@ -1865,3 +1865,63 @@ form label {
   border: 2px solid white; /* Viền trắng */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Hiệu ứng ánh sáng nhẹ */
 }
+.case-studies-summary {
+  background: rgba(255, 255, 255, 0.2); /* Nền mờ */
+  backdrop-filter: blur(8px); /* Hiệu ứng làm mờ */
+  -webkit-backdrop-filter: blur(8px); /* Hỗ trợ Safari */
+  padding: 12px; /* Giảm padding */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  width: 180px; /* Giảm kích thước */
+}
+
+/* Hover effect */
+.case-studies-summary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.25); /* Tăng độ mờ khi hover */
+}
+
+/* Icon styling */
+.case-studies-summary .icon {
+  font-size: 24px; /* Nhỏ hơn */
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+  width: 40px; /* Nhỏ hơn */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto 8px;
+  animation: pulse 1.5s infinite alternate;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.05);
+  }
+}
+
+/* Text styling */
+.case-studies-summary span {
+  display: block;
+  font-size: 12px; /* Nhỏ hơn */
+  color: #fff;
+  font-weight: bold;
+}
+
+.case-studies-summary h5 {
+  font-size: 14px; /* Nhỏ hơn */
+  font-weight: bold;
+  color: #fff;
+  margin-top: 4px;
+}
