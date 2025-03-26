@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html class="no-js"> 
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,20 +8,6 @@
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
-
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -59,22 +42,15 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
 	</head>
 	<body>
-		
 	<div class="fh5co-loader"></div>
-	
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+					<div id="fh5co-logo"><a href="index.html">Happy Birthday<strong>&hearts;</strong></a></div>
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
@@ -105,57 +81,243 @@
 			
 		</div>
 	</nav>
-
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+	<!-- Giới thiệu -->
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/long1.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Joefrey &amp; Sheila</h1>
-							<h2>We Are Getting Married</h2>
-							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
-						</div>
+							<h1>Chúc Mừng Sinh Nhật 🎉</h1>
+							<h2>Chúc Long một ngày tràn đầy niềm vui và hạnh phúc!</h2>
+							<div class="date-container">
+								<div class="date-box">08</div>
+								<div class="date-box">04</div>
+								<div class="date-box">25</div>
+							</div>							
+							<p><a href="#" class="btn btn-default btn-sm" onclick="scrollToGallery()">Cùng chúc mừng nào!</a></p>
+						</div>						
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
 
+	<!-- Những Khoảnh Khắc Đáng Nhớ -->
+	<div id="fh5co-gallery" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Cùng nhìn lại những khoảnh khắc hạnh phúc nhất!</span>
+					<h2>Album Kỷ Niệm</h2>
+					<p>Mỗi bức ảnh là một câu chuyện, một ký ức tuyệt vời đáng trân trọng.</p>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-12">
+					<ul id="fh5co-gallery-list">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/01kk.jpg); ">
+							<a href="images/01kk.jpg">
+								<div class="case-studies-summary">
+									<span>Đà Lạt - Lâm Đồng</span>
+									<h2>Đà Lạt tháng 3 năm 2025</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/02kk.jpg); ">
+							<a href="images/02kk.jpg">
+								<div class="case-studies-summary">
+									<span>Đà Lạt - Lâm Đồng</span>
+									<h2>Đà Lạt tháng 3 năm 2025</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/03kk.jpg); ">
+							<a href="images/03kk.jpg">
+								<div class="case-studies-summary">
+									<span>Đà Lạt - Lâm Đồng</span>
+									<h2>Đà Lạt tháng 3 năm 2025</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/04kk.jpg); ">
+							<a href="images/04kk.jpg">
+								<div class="case-studies-summary">
+									<span>Đà Lạt - Lâm Đồng</span>
+									<h2>Đà Lạt tháng 3 năm 2025</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/05kk.jpg); ">
+							<a href="images/05kk.jpg">
+								<div class="case-studies-summary">
+									<span>Đà Lạt - Lâm Đồng</span>
+									<h2>Đà Lạt tháng 3 năm 2025</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/06kk.jpg); ">
+							<a href="images/06kk.jpg">
+								<div class="case-studies-summary">
+									<span>Đà Lạt - Lâm Đồng</span>
+									<h2>Đà Lạt tháng 3 năm 2025</h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/07kk.jpg); ">
+							<a href="images/07kk.jpg">
+								<div class="case-studies-summary">
+									<span></span>
+									<h2>TP Hồ Chí Minh</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/08kk.jpg); ">
+							<a href="images/08kk.jpg">
+								<div class="case-studies-summary">
+									<span></span>
+									<h2>Cầu Ba Son</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/09kk.jpg); ">
+							<a href="images/09kk.jpg">
+								<div class="case-studies-summary">
+									<span></span>
+									<h2>Công viên Bến Bạch Đằng</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/10kk.jpg); ">
+							<a href="images/10kk.jpg">
+								<div class="case-studies-summary">
+									<span></span>
+									<h2>TP Hồ Chí Minh</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/11kk.jpg); ">
+							<a href="images/11kk.jpg">
+								<div class="case-studies-summary">
+									<span></span>
+									<h2>TP Hồ Chí Minh</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/12kk.jpg); ">
+							<a href="images/12kk.jpg">
+								<div class="case-studies-summary">
+									<span></span>
+									<h2>Tân Kiểng - TP Hồ Chí Minh</h2>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Chuyện của tụi mình -->
 	<div id="fh5co-couple">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
-					<h3>November 28th, 2016 New York, USA</h3>
-					<p>We invited you to celebrate our wedding</p>
+					<h2>Chuyện của tụi mình</h2>
+					<h3>Hành trình gắn bó cùng nhau ở thành phố này</h3>
+					<p>Một câu chuyện nhỏ, nhưng thật nhiều kỷ niệm của hai đứa mình!</p>
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="images/groom.jpg" alt="groom" class="img-responsive">
+						<img src="images/avt1.jpg" alt="chàng trai" class="img-responsive">
 					</div>
 					<div class="desc-groom">
-						<h3>Joefrey Mahusay</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<h3>Long</h3>
+						<p>Long, cậu ấy là một chàng trai lạnh lùng, ít nói nhưng lại âm thầm chịu đựng mọi thứ. Dù đôi lúc vô tâm, nhưng sâu bên trong lại đầy yêu thương và quan tâm theo cách riêng. Cậu suy nghĩ thực tế, không giỏi nói lời hoa mỹ, nhưng luôn chân thành và cố gắng vì người mình yêu.</p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/bride.jpg" alt="groom" class="img-responsive">
+						<img src="images/avt2.jpg" alt="cô gái" class="img-responsive">
 					</div>
 					<div class="desc-bride">
-						<h3>Sheila Mahusay</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<h3>Đạt</h3>
+						<p>Đạt, cậu ấy là người dung hòa giữa hướng nội và hướng ngoại, thường suy nghĩ quá nhiều. Mang trong mình một tình yêu lớn và ước mơ bay xa, khám phá những điều mới lạ xung quanh. Dù thế nào, cậu vẫn luôn dành trọn sự quan tâm và yêu thương cho người mình yêu.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
+	<div id="fh5co-couple-story">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Tụi mình đã yêu nhau bao lâu rồi?</span>
+					<h2>Câu Chuyện Của Chúng Tôi</h2>
+					<p>Sau kỳ thi tốt nghiệp THPT 2022, tụi mình – những đứa trẻ lớn lên từ một vùng quê xa xôi – đã quyết định cùng nhau bước vào một hành trình mới tại TP. Hồ Chí Minh. Lần đầu tiên rời xa gia đình để đến một thành phố lớn, tụi mình không khỏi hồi hộp và nôn nao. Nhưng bên cạnh đó, niềm hạnh phúc và sự tràn đầy năng lượng của tuổi trẻ vẫn luôn hiện hữu, bởi tụi mình được sống cạnh nhau, cùng nhau viết nên những kỷ niệm đẹp giữa chốn phồn hoa đô hội. </p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline animate-box">
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/story1.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Lần Đầu Gặp Gỡ</h3>
+									<span class="date">25 Tháng 12, 2015</span>
+								</div>
+								<div class="timeline-body">
+									<p>Ngày đầu tiên chúng tôi gặp nhau, mọi thứ dường như dừng lại. Một khoảnh khắc đẹp như trong truyện cổ tích, nơi hai trái tim dần tìm thấy nhau.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Buổi Hẹn Hò Đầu Tiên</h3>
+									<span class="date">28 Tháng 12, 2015</span>
+								</div>
+								<div class="timeline-body">
+									<p>Buổi hẹn đầu tiên thật tuyệt vời, những câu chuyện không dứt, những nụ cười không ngừng, và một cảm giác rằng chúng tôi đã thuộc về nhau từ lâu.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bên Nhau</h3>
+									<span class="date">1 Tháng 1, 2016</span>
+								</div>
+								<div class="timeline-body">
+									<p>Ngày chính thức bên nhau, hành trình tình yêu bắt đầu. Chúng tôi cùng nhau trải qua những khoảnh khắc hạnh phúc, cùng nắm tay trên con đường phía trước.</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--  -->
 
 	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
 		<div class="overlay"></div>
@@ -209,155 +371,6 @@
 		</div>
 	</div>
 
-	<div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-gallery" class="fh5co-section-gray">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Memories</span>
-					<h2>Wedding Gallery</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12">
-					<ul id="fh5co-gallery-list">
-						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); "> 
-						<a href="images/gallery-1.jpg">
-							<div class="case-studies-summary">
-								<span>14 Photos</span>
-								<h2>Two Glas of Juice</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
-						<a href="#" class="color-2">
-							<div class="case-studies-summary">
-								<span>30 Photos</span>
-								<h2>Timer starts now!</h2>
-							</div>
-						</a>
-					</li>
-
-
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-						<a href="#" class="color-3">
-							<div class="case-studies-summary">
-								<span>90 Photos</span>
-								<h2>Beautiful sunset</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
-						<a href="#" class="color-4">
-							<div class="case-studies-summary">
-								<span>12 Photos</span>
-								<h2>Company's Conference Room</h2>
-							</div>
-						</a>
-					</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
-							<a href="#" class="color-3">
-								<div class="case-studies-summary">
-									<span>50 Photos</span>
-									<h2>Useful baskets</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>45 Photos</span>
-									<h2>Skater man in the road</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>35 Photos</span>
-									<h2>Two Glas of Juice</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg); "> 
-							<a href="#" class="color-5">
-								<div class="case-studies-summary">
-									<span>90 Photos</span>
-									<h2>Timer starts now!</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							<a href="#" class="color-6">
-								<div class="case-studies-summary">
-									<span>56 Photos</span>
-									<h2>Beautiful sunset</h2>
-								</div>
-							</a>
-						</li>
-					</ul>		
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
 		<div class="overlay"></div>

@@ -230,3 +230,7 @@
 
 
 }());
+/////
+function scrollToGallery() {
+    document.getElementById("fh5co-gallery").scrollIntoView({ behavior: "smooth" });
+}
